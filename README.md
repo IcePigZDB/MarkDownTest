@@ -1,6 +1,6 @@
 
 
-| Anchor | info             | Typora | VsCode | GFM  |
+| Anchor | details             | Typora | VsCode | GFM  |
 | :----- | ---------------- | ------ | ------ | ---- |
 | 1      | <a ,id ,<href    | ✗      | ✓      | ✓    |
 | 2      | <a ,name ,<href  | ✓      | ✗      | ✓    |
