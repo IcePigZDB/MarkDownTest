@@ -29,7 +29,6 @@ Jump1：<a href="#anchor1">Link to Anchor1</a>
 
 Anchor1：<a id="anchor1">Anchor1</a>  
 
-# 1
 
 # 1
 
@@ -66,7 +65,6 @@ Jump2：<a href="#anchor2">Link to Anchor2</a>
 
 Anchor2：<a name= "anchor2">Anchor2</a>
 
-# 1
 
 # 1
 
@@ -103,7 +101,6 @@ Jump3：<a href="#anchor3">Link to Anchor3</a>
 
 Anchor3：<span id="anchor3">Anchor3</span>  
 
-# 1
 
 # 1
 
@@ -140,7 +137,6 @@ Jump4：<a href="#anchor4">Link to Anchor4</a>
 
 Anchor4：<span name= "anchor4">Anchor4</span>
 
-# 1
 
 # 1
 
@@ -177,7 +173,6 @@ Jump5：[Link to Anchor5](#anchor5)
 
 Ancho5r：<a id="anchor5">Anchor5</a>
 
-# 1
 
 # 1
 
@@ -214,7 +209,6 @@ Jump6：[Link to Anchor6](#anchor6)
 
 Anchor6：<a name="anchor6">Anchor6</a>
 
-# 1
 
 # 1
 
@@ -249,7 +243,6 @@ Anchor7： Header :# Anchor7
 Jump7：[Link to Anchor7](#Anchor7)
 ```
 
-# 1
 
 # 1
 
