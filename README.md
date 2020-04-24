@@ -12,6 +12,7 @@
 
 * With my test on System Win10 VsCode-1.44.2，Typora-0.9-86.
 * Test 1,2 is a group  a,Test 3,4 is group b, Test 5,6 is another group c, the difference betweent group  is 'id' and 'name', the difference between group a and group b is '<a'  and '<span', group c just shows another implementation of jump.
+* References [Typora docs](https://support.typora.io/Links/#html-a-tag)
 #### Conclusion
 
 1. Test Anchor 7 works in Typora,VsCode and GFM for the use to **jump to a header**.
@@ -19,7 +20,7 @@
 2. When it comes to **jump to a part which is not a header**,1,3,5 (id) work in VsCode,2,4,6 (name) work in Typora.
 3. The <a> tag defines a **hyperlink**,'<span' is used for **mark up a part of a document.**,they are interchangeable here.
 
-* References [Typora docs](https://support.typora.io/Links/#html-a-tag)
+
 #### Here comes the test ,bottom-up is recommended.
 
 
