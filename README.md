@@ -264,9 +264,7 @@ Jump7：[Link to Anchor7](#Anchor7)
 
 # 1
 
-# 1
 
-# 1
 
 Anchor7： Header :# Anchor7
 Jump7：[Link to Anchor7](#Anchor7)
