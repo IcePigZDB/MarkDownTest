@@ -16,6 +16,7 @@
 1. Test Anchor 7 works in Typora,VsCode and GFM for the use to **jump to a header**.
 
 2. When it comes to **jump to a part which is not a header**,1,3,5 (id) work in VsCode,2,4,6 (name) work in Typora.
+3. The <a> tag defines a **hyperlink**,'<span' is used for **mark up a part of a document.**,they are interchangeable here.
 
 #### Here comes the test ,bottom-up is recommended.
 
