@@ -18,7 +18,7 @@
 2. When it comes to **jump to a part which is not a header**,1,3,5 (id) work in VsCode,2,4,6 (name) work in Typora.
 3. The <a> tag defines a **hyperlink**,'<span' is used for **mark up a part of a document.**,they are interchangeable here.
 
-References [Typora docs](https://support.typora.io/Links/#html-a-tag)
+* References [Typora docs](https://support.typora.io/Links/#html-a-tag)
 #### Here comes the test ,bottom-up is recommended.
 
 
