@@ -1,5 +1,5 @@
 
-
+# 30 Aug 2020
 [typora-issues/issues/3448](https://github.com/typora/typora-issues/issues/3448) Typora developers help me a lot , thank them all. After version 0.9.90 except situation 3 ，1，5 work successfully，now my docs can work in vs code and Typora.
 
 ![image-20200712211556134](images/image-20200712211556134.png)
