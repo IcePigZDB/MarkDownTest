@@ -1,16 +1,58 @@
+English | [简体中文](./README_CH.md)
 
-# 30 Aug 2020
+Personally, I may use in-page jumps in vscode, typora, github, blog (hexo), so I'm looking for a way to use them in a consistent way.
+When using vscode and typora, I found that they are only consistent in the header-level in-page jumping ` # header [](#)`, among the 6 other ways of in-page jumping, typora supports 2, 4, 6; Vscode supports 1, 3, 5. I wrote a [test](https://github.com/IcePigZDB/MarkDownTest) for these cases and raised an [issue](https://github.com/typora/typora-issues/issues/3448) to typora. Now Typora supports all 7 ways, today (20210716), I re-tested vscode and hexo (next theme) adding the latest table.
+
+# 16 Jul 2021 (add test [Hexo](https://github.com/hexojs/hexo) in theme [next](https://github.com/theme-next/hexo-theme-next))
+
+| Anchor | details          | Typora | VsCode | GFM  | Hexo |
+| :----- | ---------------- | ------ | ------ | ---- | ---- |
+| 1      | <a ,id ,<href    | ✓      | ✓      | ✓    | ✓    |
+| 2      | <a ,name ,<href  | ✓      | ✗      | ✓    | ✓    |
+| 3      | <span,id,<href   | ✓      | ✓      | ✓    | ✓    |
+| 4      | <span,name,<href | ✓      | ✗      | ✓    | ✗    |
+| 5      | <a,id,[](#       | ✓      | ✓      | ✓    | ✓    |
+| 6      | <a,name,[](#     | ✓      | ✗      | ✓    | ✓    |
+| 7      | # header [](#    | ✓      | ✓      | ✓    | ✓    |
+
+# 30 Aug 2020 (second fix)
+
+Support situation 3.
+
+| Anchor | details          | Typora | VsCode | GFM  |
+| :----- | ---------------- | ------ | ------ | ---- |
+| 1      | <a ,id ,<href    | ✓      | ✓      | ✓    |
+| 2      | <a ,name ,<href  | ✓      | ✗      | ✓    |
+| 3      | <span,id,<href   | ✓      | ✓      | ✓    |
+| 4      | <span,name,<href | ✓      | ✗      | ✓    |
+| 5      | <a,id,[](#       | ✓      | ✓      | ✓    |
+| 6      | <a,name,[](#     | ✓      | ✗      | ✓    |
+| 7      | # header [](#    | ✓      | ✓      | ✓    |
+
+# 11 Jul 2020 (first fix)
 [typora-issues/issues/3448](https://github.com/typora/typora-issues/issues/3448) Typora developers help me a lot , thank them all. After version 0.9.90 except situation 3 ，1，5 work successfully，now my docs can work in vs code and Typora.
 
-![image-20200712211556134](images/image-20200712211556134.png)
+![image-20200712211556134.png](/_posts/2020-05-24-MarkDown-Anchor-T/image-20200712211556134.png)
 
-| Anchor | details             | Typora | VsCode | GFM  |
+| Anchor | details          | Typora | VsCode | GFM  |
 | :----- | ---------------- | ------ | ------ | ---- |
-| 1      | <a ,id ,<href    | ✓     | ✓      | ✓    |
+| 1      | <a ,id ,<href    | ✓      | ✓      | ✓    |
 | 2      | <a ,name ,<href  | ✓      | ✗      | ✓    |
 | 3      | <span,id,<href   | ✗      | ✓      | ✓    |
 | 4      | <span,name,<href | ✓      | ✗      | ✓    |
-| 5      | <a,id,[](#       | ✓     | ✓      | ✓    |
+| 5      | <a,id,[](#       | ✓      | ✓      | ✓    |
+| 6      | <a,name,[](#     | ✓      | ✗      | ✓    |
+| 7      | # header [](#    | ✓      | ✓      | ✓    |
+
+# 24 Apr 2020 (first time to open issue)
+
+| Anchor | details          | Typora | VsCode | GFM  |
+| ------ | ---------------- | ------ | ------ | ---- |
+| 1      | <a ,id ,<href    | ✗      | ✓      | ✓    |
+| 2      | <a ,name ,<href  | ✓      | ✗      | ✓    |
+| 3      | <span,id,<href   | ✗      | ✓      | ✓    |
+| 4      | <span,name,<href | ✓      | ✗      | ✓    |
+| 5      | <a,id,[](#       | ✗      | ✓      | ✓    |
 | 6      | <a,name,[](#     | ✓      | ✗      | ✓    |
 | 7      | # header [](#    | ✓      | ✓      | ✓    |
 
@@ -276,4 +318,3 @@ Jump7：[Link to Anchor7](#Anchor7)
 
 Anchor7： Header :# Anchor7
 Jump7：[Link to Anchor7](#Anchor7)
-
