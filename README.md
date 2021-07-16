@@ -32,7 +32,7 @@ Support situation 3.
 # 11 Jul 2020 (first fix)
 [typora-issues/issues/3448](https://github.com/typora/typora-issues/issues/3448) Typora developers help me a lot , thank them all. After version 0.9.90 except situation 3 ，1，5 work successfully，now my docs can work in vs code and Typora.
 
-![image-20200712211556134.png](/_posts/2020-05-24-MarkDown-Anchor-T/image-20200712211556134.png)
+![image-20200712211556134.png](./images/image-20200712211556134.png)
 
 | Anchor | details          | Typora | VsCode | GFM  |
 | :----- | ---------------- | ------ | ------ | ---- |
