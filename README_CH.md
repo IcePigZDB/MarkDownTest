@@ -1,3 +1,5 @@
+[English](README.md) | 简体中文
+
 个人可能在vscode,typora,github,blog（hexo）中使用到页内跳转，所以想寻求一种能够统一使用的方法。在使用vscode和typora的时候发现他们只在标题级页内跳转保持一致` # header [](#`，页内的其他方式的6种中，typora支持2，4，6；Vscode支持1,3,5。也就是说一个md文件的页内跳转要么只能在typora中用，要么只能在vscode中用。我针对这些情况写了一个[测试](https://github.com/IcePigZDB/MarkDownTest)，并对typora提了一个[issue](https://github.com/typora/typora-issues/issues/3448),作者非常nice的解决了这个小问题！Typora目前已经支持所有7种方式，今天(20210716)，重新测试了一下vscode的支持情况，刚好在使用hexo next主题，顺便测试了它的支持情况，补充出最新的表格。
 # 16 Jul 2021 (add test [Hexo](https://github.com/hexojs/hexo) in theme [next](https://github.com/theme-next/hexo-theme-next))
 
