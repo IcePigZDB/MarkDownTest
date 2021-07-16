@@ -15,7 +15,7 @@
 | 7      | # header [](#    | ✓      | ✓      | ✓    |
 
 * With my test on System Win10 VsCode-1.44.2，Typora-0.9-86.
-* Test 1,2 is a group  a,Test 3,4 is group b, Test 5,6 is another group c, the difference betweent group  is 'id' and 'name', the difference between group a and group b is '<a'  and '<span', group c just shows another implementation of jump.
+* Test 1,2 is group  a,Test 3,4 is group b, Test 5,6 is another group c, the difference betweent group  is 'id' and 'name', the difference between group a and group b is '<a'  and '<span', group c just shows another implementation of jump.
 * References [Typora docs](https://support.typora.io/Links/#html-a-tag)
 #### Conclusion
 
